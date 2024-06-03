@@ -7,8 +7,9 @@ def duckConvert(source, target, amount):
     source = source.lower()
     target = target.lower()
 
-    url = f"https://duckduckgo.com/js/spice/cryptocurrency/{
-        source}/{target}/{amount}"
+    url = url = (
+        f"https://duckduckgo.com/js/spice/cryptocurrency/{source}/{target}/{amount}"
+    )
 
     headers = {
         "Accept": "*/*",
