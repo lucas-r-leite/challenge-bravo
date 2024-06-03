@@ -1,1 +1,3 @@
 venv/
+currencyConverter/__pycache__/
+currencyConverter/routes/__pycache__/
